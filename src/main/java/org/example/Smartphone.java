@@ -6,6 +6,8 @@ public class Smartphone extends Product {
 
     public Smartphone(int id, String title, int price, String namePhone, String manufacturer) {
         super(id, title, price);
+        this.namePhone = namePhone;
+        this.manufacturer = manufacturer;
     }
 
     public String getNamePhone() {
